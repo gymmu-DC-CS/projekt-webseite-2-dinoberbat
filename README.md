@@ -7,3 +7,9 @@
 -Ich habe ein Inhaltsverzeichnis für meine Website erstellt.
 -Ich habe passende Titel für die verschiedenen Abschnitte über Dinosaurier geschrieben.
 -Ich habe das Inhaltsverzeichnis mit einer Liste übersichtlich dargestellt.
+-Ich habe das Kapitel „Einführung in die Dinosaurier“ geschrieben und erklärt, was Dinosaurier sind, wann sie lebten und wie sie aufgebaut waren.
+-Ich habe das Kapitel „Die Zeit der Dinosaurier“ erstellt und die Erdzeitalter Trias, Jura und Kreidezeit mit den entsprechenden Zeiträumen beschrieben.
+-Ich habe das Kapitel „Nahrung der Dinosaurier“ verfasst und die verschiedenen Ernährungsweisen (Pflanzenfresser, Fleischfresser, Allesfresser) erklärt.
+-Ich habe das Kapitel „Fossilien und Entdeckungen“ geschrieben, erklärt, wie Fossilien entstehen, was Paläontologen machen und eine wichtige Entdeckung (Ichthyosaurus-Fund) beschrieben.
+-Ich habe das Kapitel „Das Aussterben der Dinosaurier“ erstellt, den Meteoriten-Einschlag beim Chicxulub-Kraters und mögliche vulkanische Ursachen beschrieben.
+-Ich habe das Kapitel „Spannende Fakten über Dinosaurier“ geschrieben, inklusive Informationen über Vögel als Nachfahren, Federn, Größenunterschiede, Eier/Nester und Farben.
