@@ -24,6 +24,7 @@ Meine Idee war, für jeden Dinosaurier einen Steckbrief in Hochformat zu erstell
 Dazu gehören Themen wie Ernährung, Gewicht, Länge, Zeit, Lebensraum, Art, Besonderheiten und spannende Fakten, für die ich rechechieren musste.
 Für die Gestaltung der Tabellen habe ich CSS verwendet, --> Dafür habe ich Quellen gebraucht um zu verstehen wie ich diese Tabellen gestalten möchte
 -Ich habe den Text bei "Einführung von Dinosauriern" verbessert, da er einwenig komisch geschrieben war und ich es ausführlicher schreiben wollte.
+-Ich habe bei „Arten von Dinosauriern“ die einzelnen Dinosaurier als Unterpunkte hinzugefügt. So sieht das Inhaltsverzeichnis übersichtlicher aus und die Untergruppen sind klar erkennbar.
 
 MEINE QUELLEN: 
 CSS FÜR DIE TABELLE MEINER DINOSAURIER: 
