@@ -25,14 +25,20 @@ Dazu gehören Themen wie Ernährung, Gewicht, Länge, Zeit, Lebensraum, Art, Bes
 Für die Gestaltung der Tabellen habe ich CSS verwendet, --> Dafür habe ich Quellen gebraucht um zu verstehen wie ich diese Tabellen gestalten möchte
 -Ich habe den Text bei "Einführung von Dinosauriern" verbessert, da er einwenig komisch geschrieben war und ich es ausführlicher schreiben wollte.
 -Ich habe bei „Arten von Dinosauriern“ die einzelnen Dinosaurier als Unterpunkte hinzugefügt. So sieht das Inhaltsverzeichnis übersichtlicher aus und die Untergruppen sind klar erkennbar.
+-„Ich habe ein CSS-Grundgerüst erstellt, in dem ich alle Tabellenstile und andere Gestaltungselemente eintragen kann. Zusätzlich habe ich scroll-behavior: smooth; eingefügt, damit das Scrollen zu den Abschnitten flüssig erfolgt.“
 
 MEINE QUELLEN: 
 CSS FÜR DIE TABELLE MEINER DINOSAURIER: 
-	•	text-align:
+text-align:
 https://developer.mozilla.org/de/docs/Web/CSS/text-align
-	•	padding:
+padding:
 https://developer.mozilla.org/de/docs/Web/CSS/padding
-	•	border-collapse:
+border-collapse:
 https://developer.mozilla.org/de/docs/Web/CSS/border-collapse
-	•	Tabellen‑CSS allgemein:
+Tabellen‑CSS allgemein:
 https://developer.mozilla.org/de/docs/Web/HTML/Element/table
+
+INTERAKTIVES INHALTSVERZEICHNIS:
+Wie ich das scrollen smooth gemacht habe: 
+https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/scroll-behavior 
+
