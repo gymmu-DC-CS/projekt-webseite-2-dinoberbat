@@ -19,5 +19,18 @@
 13.03.2026: 
 -Zusammenfassung geschrieben
 -Arten von Dinosaurier: Steckbriefe erstellt von den typischen Dinosauriern. 
+--> Bei diesem Abschnitt habe ich weiter an der Kategorie „Arten von Dinosauriern“ gearbeitet.
+Meine Idee war, für jeden Dinosaurier einen Steckbrief in Hochformat zu erstellen, damit die wichtigsten Informationen vo den wichtigsten Dinosauriern übersichtlich dargestellt werden.
+Dazu gehören Themen wie Ernährung, Gewicht, Länge, Zeit, Lebensraum, Art, Besonderheiten und spannende Fakten, für die ich rechechieren musste.
+Für die Gestaltung der Tabellen habe ich CSS verwendet, --> Dafür habe ich Quellen gebraucht um zu verstehen wie ich diese Tabellen gestalten möchte
 
 MEINE QUELLEN: 
+CSS FÜR DIE TABELLE MEINER DINOSAURIER: 
+	•	text-align:
+https://developer.mozilla.org/de/docs/Web/CSS/text-align
+	•	padding:
+https://developer.mozilla.org/de/docs/Web/CSS/padding
+	•	border-collapse:
+https://developer.mozilla.org/de/docs/Web/CSS/border-collapse
+	•	Tabellen‑CSS allgemein:
+https://developer.mozilla.org/de/docs/Web/HTML/Element/table
