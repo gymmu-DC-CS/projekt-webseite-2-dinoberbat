@@ -16,4 +16,8 @@
 -Ich habe das Kapitel „Spannende Fakten über Dinosaurier“ geschrieben, inklusive Informationen über Vögel als Nachfahren, Federn, Größenunterschiede, Eier/Nester und Farben.
 -Ich habe noch einen Abschnitt Namens "Zusammenfassung" in mein Inhaltsverzeichnis eingefügt.
 
+13.03.2026: 
+-Zusammenfassung geschrieben
+-Arten von Dinosaurier: Steckbriefe erstellt von den typischen Dinosauriern. 
+
 MEINE QUELLEN: 
