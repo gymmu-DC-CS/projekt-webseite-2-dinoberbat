@@ -3,7 +3,8 @@
 05.03.2026: 
 -Ich habe erstmal das HTML-Grundgerüst eingefügt. 
 -Ich habe den Titel geschrieben.
-12.03.2026: 
+
+12.03.2026:
 -Ich habe ein Inhaltsverzeichnis für meine Website erstellt.
 -Ich habe passende Titel für die verschiedenen Abschnitte über Dinosaurier geschrieben.
 -Ich habe das Inhaltsverzeichnis mit einer Liste übersichtlich dargestellt.
@@ -13,3 +14,6 @@
 -Ich habe das Kapitel „Fossilien und Entdeckungen“ geschrieben, erklärt, wie Fossilien entstehen, was Paläontologen machen und eine wichtige Entdeckung (Ichthyosaurus-Fund) beschrieben.
 -Ich habe das Kapitel „Das Aussterben der Dinosaurier“ erstellt, den Meteoriten-Einschlag beim Chicxulub-Kraters und mögliche vulkanische Ursachen beschrieben.
 -Ich habe das Kapitel „Spannende Fakten über Dinosaurier“ geschrieben, inklusive Informationen über Vögel als Nachfahren, Federn, Größenunterschiede, Eier/Nester und Farben.
+-Ich habe noch einen Abschnitt Namens "Zusammenfassung" in mein Inhaltsverzeichnis eingefügt.
+
+MEINE QUELLEN: 
