@@ -27,6 +27,22 @@ Für die Gestaltung der Tabellen habe ich CSS verwendet, --> Dafür habe ich Que
 -Ich habe bei „Arten von Dinosauriern“ die einzelnen Dinosaurier als Unterpunkte hinzugefügt. So sieht das Inhaltsverzeichnis übersichtlicher aus und die Untergruppen sind klar erkennbar.
 -„Ich habe ein CSS-Grundgerüst erstellt, in dem ich alle Tabellenstile und andere Gestaltungselemente eintragen kann. Zusätzlich habe ich scroll-behavior: smooth; eingefügt, damit das Scrollen zu den Abschnitten flüssig erfolgt.“
 
+Änderung der Untertitel „Arten von Dinosaurier“:
+-Die Untertitel wurden von <h3> zu <h4> geändert.
+In der CSS-Datei für h4 Folgendes hinzugefügt:
+	•	font-family → Schriftart der Untertitel geändert (z. B. „Fredoka One“).
+	•	font-size → Schriftgrössr angepasst.
+	•	margin-bottom → Abstand gemacht, damit die Tabelle oder der Text nicht zu nah am Titel steht.
+Zweck:
+	•	Schriftart der Untertitel individuell gestaltet.
+	•	Ich habe den Abstand zwischen Titel und Tabelle angepasst.
+
+16.03.2026: 
+-Ich habe im CSS eine Regel für <p> hinzugefügt. Dabei habe ich die Breite des Textes auf 50 % gesetzt, damit der Text nur auf der linken Hälfte der Seite steht und rechts Platz für Bilder bleibt. Außerdem habe ich mit line-height: 1.6 den Zeilenabstand vergrößert, damit der Text leichter lesbar ist.
+
+
+
+
 MEINE QUELLEN: 
 CSS FÜR DIE TABELLE MEINER DINOSAURIER: 
 text-align:
