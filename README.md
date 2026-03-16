@@ -38,9 +38,92 @@ Zweck:
 	•	Ich habe den Abstand zwischen Titel und Tabelle angepasst.
 
 16.03.2026: 
--Ich habe im CSS eine Regel für <p> hinzugefügt. Dabei habe ich die Breite des Textes auf 50 % gesetzt, damit der Text nur auf der linken Hälfte der Seite steht und rechts Platz für Bilder bleibt. Außerdem habe ich mit line-height: 1.6 den Zeilenabstand vergrößert, damit der Text leichter lesbar ist.
+Heute habe ich am Abschnitt „Die Zeit der Dinosaurier“ weitergearbeitet.
+Videos zu den Erdzeitaltern
+Ich wollte zu den drei Zeitperioden Trias, Jura und Kreidezeit passende Videos hinzufügen.
+Dafür habe ich auf YouTube nach Videos gesucht, die diese Zeitperioden erklären.
+Es war teilweise schwierig, passende Videos zu finden, weil:
+	•	viele Videos zu lang waren
+	•	manche Videos nicht genau die Zeitperioden erklärt haben
 
+Videos in die Website einbauen
+Zuerst wollte ich die Videos direkt auf der Website einbetten. Das hat jedoch nicht funktioniert, weil einige Videos nicht eingebettet werden konnten.
+Deshalb habe ich stattdessen YouTube-Thumbnails verwendet, die auf das Video verlinken.
+Wenn man auf das Bild klickt, öffnet sich das Video auf YouTube.
 
+Boxen mit CSS gestalten
+Danach habe ich mit CSS Boxen für die drei Zeitperioden erstellt.
+In jeder Box befinden sich:
+	•	der Name der Zeitperiode
+	•	der Zeitraum
+	•	ein Bild (Thumbnail), das auf das Video verlinkt
+Dabei hatte ich einige Schwierigkeiten mit dem Layout.
+Am Anfang:
+	•	waren die Bilder nicht in den Boxen
+	•	standen die Boxen nicht nebeneinander
+	•	waren die Abstände falsch
+Ich musste mehrere CSS-Eigenschaften ausprobieren, bis die Boxen nebeneinander stehen und die Bilder richtig in den Boxen angezeigt werden.
+
+Quellen
+Dinosaurier Informationen
+National Geographic Kids:
+https://kids.nationalgeographic.com/animals/prehistoric/dinosaurs
+Britannica – Dinosaur:
+https://www.britannica.com/animal/dinosaur
+Smithsonian National Museum of Natural History:
+https://naturalhistory.si.edu
+
+Videos
+Trias:
+https://www.youtube.com/watch?v=wJz2upbA3QA
+Jura:
+https://www.youtube.com/watch?v=d4Z-glC0vXg
+Kreidezeit:
+https://www.youtube.com/watch?v=zyd6mgLK6Q0
+
+HTML und CSS Programmierung
+
+HTML Grundlagen:
+https://developer.mozilla.org/de/docs/Web/HTML
+
+CSS Grundlagen:
+https://developer.mozilla.org/de/docs/Web/CSS
+
+Tabellen:
+https://developer.mozilla.org/de/docs/Web/HTML/Element/table
+
+text-align:
+https://developer.mozilla.org/de/docs/Web/CSS/text-align
+
+padding:
+https://developer.mozilla.org/de/docs/Web/CSS/padding
+
+border:
+https://developer.mozilla.org/de/docs/Web/CSS/border
+
+border-collapse:
+https://developer.mozilla.org/de/docs/Web/CSS/border-collapse
+
+border-radius:
+https://developer.mozilla.org/de/docs/Web/CSS/border-radius
+
+box-shadow:
+https://developer.mozilla.org/de/docs/Web/CSS/box-shadow
+
+display:
+https://developer.mozilla.org/de/docs/Web/CSS/display
+
+Flexbox Layout:
+https://developer.mozilla.org/de/docs/Web/CSS/CSS_flexible_box_layout
+
+justify-content:
+https://developer.mozilla.org/de/docs/Web/CSS/justify-content
+
+gap:
+https://developer.mozilla.org/de/docs/Web/CSS/gap
+
+scroll-behavior:
+https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/scroll-behavior
 
 
 MEINE QUELLEN: 
