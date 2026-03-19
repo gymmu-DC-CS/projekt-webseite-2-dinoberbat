@@ -42,7 +42,7 @@ h4{
 
 .periode-box {
   background-color: #d9f0d9; 
-  border: 2px solid #87ceeb; 
+  border: 2px solid #32971e; 
   border-radius: 10px;
   padding: 10px;
   flex: 1 1 30%; 
@@ -77,4 +77,25 @@ h4{
 
 .periode-box img:hover {
   transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
