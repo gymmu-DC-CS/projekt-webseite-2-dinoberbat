@@ -87,11 +87,11 @@ h4{
 
 
 
-table {
+/* table {
   display: inline-block;
   width: 55%;
   vertical-align: middle;
-}
+} */
 
 
 table + img {
@@ -105,3 +105,86 @@ table + img {
 
 
 
+
+
+
+
+
+
+
+
+
+
+.dino-box{
+  background-color:#e9f5e9;
+  border:2px solid #32971e;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:40px;
+  width:100%; /* volle Breite */
+  box-sizing:border-box;
+}
+
+.dino-box h4{
+  margin-top:0;
+  margin-bottom:10px;
+}
+
+
+.dino-content{
+  display:flex;
+  gap:10px;
+  align-items:flex-start; /* verhindert Abschneiden */
+}
+
+/* Tabelle */
+.dino-content table{
+  border-collapse:collapse;
+  background:transparent;
+}
+
+.dino-content th,
+.dino-content td{
+  border:1px solid #6aa56a;
+  padding:8px;
+  text-align:left;
+}
+
+/* Bild */
+.dino-content img{
+  width:45%;
+  height:auto; /* wichtig → kein Abschneiden */
+  border-radius:10px;
+  object-fit:contain; /* zeigt ganzes Bild */
+}
+
+
+
+/* Inhalt nebeneinander */
+.dino-content {
+  display: flex;
+  gap: 20px; /* Abstand zwischen Tabelle und Bild */
+  align-items: flex-start;
+  justify-content: space-between; /* verteilt Tabelle & Bild gleichmäßig */
+  flex-wrap: wrap; /* responsive bei kleinen Bildschirmen */
+}
+
+/* Tabelle: gleiche Breite */
+.dino-content table {
+  border-collapse: collapse;
+  background: transparent;
+  flex: 1 1 48%;      /* nimmt fast die Hälfte, flexibel */
+  min-width: 250px;    /* verhindert zu kleine Tabelle */
+  max-width: 800px;    /* verhindert zu große Tabelle */
+  table-layout: fixed; /* gleichmäßige Spalten */
+  word-wrap: break-word;
+}
+
+/* Bild */
+.dino-content img {
+  flex: 1 1 48%;       /* nimmt fast die andere Hälfte */
+  max-width: 45%;      /* damit es nicht zu groß wird */
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
