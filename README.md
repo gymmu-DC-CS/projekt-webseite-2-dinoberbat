@@ -64,6 +64,22 @@ Am Anfang:
 	•	waren die Abstände falsch
 Ich musste mehrere CSS-Eigenschaften ausprobieren, bis die Boxen nebeneinander stehen und die Bilder richtig in den Boxen angezeigt werden.
 
+19.03.2026:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Quellen
 Dinosaurier Informationen
 National Geographic Kids:

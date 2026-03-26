@@ -87,15 +87,21 @@ h4{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+table {
+  display: inline-block;
+  width: 55%;
+  vertical-align: middle;
 }
+
+
+table + img {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+
+
