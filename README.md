@@ -64,7 +64,11 @@ Am Anfang:
 	•	waren die Abstände falsch
 Ich musste mehrere CSS-Eigenschaften ausprobieren, bis die Boxen nebeneinander stehen und die Bilder richtig in den Boxen angezeigt werden.
 
-19.03.2026:
+26.03.2026:
+Heute habe ich für jeden Dinosaurier eine eigene <div class="dino-box"> angelegt. Innerhalb der Box habe ich den Inhalt in eine <div class="dino-content"> gepackt, damit die Tabelle mit den Informationen und das Bild nebeneinander stehen.
+Ich habe CSS geschrieben, um Flexbox für .dino-content zu nutzen. Die Tabellen habe ich mit flex: 1 1 48% und table-layout: fixed gleichmäßig gemacht. Die Bilder habe ich ebenfalls flexibel mit flex: 1 1 48% eingebunden, damit sie sich der Boxgröße anpassen. So sollten Tabelle und Bild nebeneinander stehen und die Abstände einheitlich sein.
+
+Beim Brachiosaurus ist mir dann aufgefallen, dass die Tabelle ein max-width: 800px hatte. Dadurch konnte sie nie die volle Breite der Box nutzen und das Layout wirkte ungleichmäßig – die Tabelle war zu schmal und das Bild daneben zu groß. Ich habe das Problem erkannt und den max-width entfernt, sodass die Tabelle jetzt flexibel ist und zusammen mit dem Bild die Box gleichmässig füllt.
 
 
 
