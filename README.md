@@ -68,18 +68,128 @@ Ich musste mehrere CSS-Eigenschaften ausprobieren, bis die Boxen nebeneinander s
 Heute habe ich für jeden Dinosaurier eine eigene <div class="dino-box"> angelegt. Innerhalb der Box habe ich den Inhalt in eine <div class="dino-content"> gepackt, damit die Tabelle mit den Informationen und das Bild nebeneinander stehen.
 Ich habe CSS geschrieben, um Flexbox für .dino-content zu nutzen. Die Tabellen habe ich mit flex: 1 1 48% und table-layout: fixed gleichmäßig gemacht. Die Bilder habe ich ebenfalls flexibel mit flex: 1 1 48% eingebunden, damit sie sich der Boxgröße anpassen. So sollten Tabelle und Bild nebeneinander stehen und die Abstände einheitlich sein.
 
-Beim Brachiosaurus ist mir dann aufgefallen, dass die Tabelle ein max-width: 800px hatte. Dadurch konnte sie nie die volle Breite der Box nutzen und das Layout wirkte ungleichmäßig – die Tabelle war zu schmal und das Bild daneben zu groß. Ich habe das Problem erkannt und den max-width entfernt, sodass die Tabelle jetzt flexibel ist und zusammen mit dem Bild die Box gleichmässig füllt.
+Beim Brachiosaurus ist mir dann aufgefallen, dass die Tabelle ein max-width: 800px hatte. Dadurch konnte sie nie die volle Breite der Box nutzen und das Layout wirkte ungleichmäßig – die Tabelle war zu schmal und das Bild daneben zu gross. Ich habe das Problem erkannt und den max-width entfernt, sodass die Tabelle jetzt flexibel ist und zusammen mit dem Bild die Box gleichmässig füllt.
 
+27.03.2026: 
+Heute habe ich das Design meiner Website stark verbessert, da die Seite vorher wie ein Word-Dokument aussah und das Inhaltsverzeichnis unübersichtlich war.
 
+Gestaltung des Inhaltsverzeichnisses mit CSS
 
+Ich habe mit CSS eine lange grüne Fläche auf der linken Seite erstellt, die über die ganze Höhe der Website geht. Dort befindet sich jetzt das Inhaltsverzeichnis. Dadurch sieht die Website übersichtlicher und moderner aus.
 
+Am Anfang gab es mehrere Probleme:
+	•	Das Inhaltsverzeichnis hatte keine Punkte
+	•	Die Liste war nicht richtig positioniert
+	•	Einige CSS-Eigenschaften waren falsch geschrieben
+	•	Das Layout sah unordentlich aus
 
+Das Problem mit den fehlenden Punkten entstand, weil ich im CSS die Eigenschaft list-style nicht richtig gesetzt hatte. Ohne diese Eigenschaft zeigt der Browser keine Punkte vor den Listenelementen an.
 
+Ich habe das Problem gelöst, indem ich folgende Eigenschaft hinzugefügt habe:
+ul{
+list-style: disc;
+padding-left: 18px;
+}
+Bedeutung:
+	•	list-style: disc; → zeigt normale Punkte vor der Liste an
+	•	padding-left → macht Abstand vom Rand, damit die Punkte sichtbar sind
 
+Quelle:
+https://developer.mozilla.org/de/docs/Web/CSS/list-style
 
+Linke Seitenleiste erstellen
+Damit das Inhaltsverzeichnis immer links sichtbar bleibt, habe ich eine feste Fläche mit CSS erstellt:
+body::before{
+content:"";
+position: fixed;
+left:0;
+top:0;
+width:220px;
+height:100vh;
+background:#1b5e20;
+}
+Bedeutung:
+	•	position: fixed; → die Fläche bleibt beim Scrollen immer sichtbar
+	•	left:0; top:0; → Position ganz links oben
+	•	width → Breite der Seitenleiste
+	•	height:100vh; → Höhe der ganzen Bildschirmseite
+	•	background → Hintergrundfarbe
 
+Quelle:
+https://developer.mozilla.org/de/docs/Web/CSS/position
 
+Pseudo-Element Erklärung:
+https://developer.mozilla.org/de/docs/Web/CSS/::before
 
+Abstände für die Website anpassen
+Damit der Text nicht unter der linken Leiste steht, habe ich beim body einen Abstand gemacht:
+body{
+padding-left:260px;
+}
+Bedeutung:
+	•	padding-left → verschiebt den ganzen Inhalt nach rechts
+Quelle:
+https://developer.mozilla.org/de/docs/Web/CSS/padding
+
+Problem mit den Untergruppen bei „Arten von Dinosauriern“
+
+Ein weiteres Problem war das Inhaltsverzeichnis bei den Untergruppen der Dinosaurier (z. B. T-Rex, Triceratops usw.).
+
+Am Anfang hatte ich ul statt li verwendet, wodurch die Liste nicht richtig funktioniert hat.
+
+Falsch:
+<ul>
+<ul>T-Rex</ul>
+<ul>Triceratops</ul>
+</ul>
+Richtig: 
+<ul>
+<li>T-Rex</li>
+<li>Triceratops</li>
+</ul>
+Bedeutung:
+	•	ul → erstellt eine ungeordnete Liste
+	•	li → definiert ein einzelnes Listenelement
+	•	li muss immer innerhalb von ul stehen
+
+Quelle:
+https://developer.mozilla.org/de/docs/Web/HTML/Element/ul
+
+https://developer.mozilla.org/de/docs/Web/HTML/Element/li
+
+Links im Inhaltsverzeichnis gestalten
+
+Ich habe auch die Links schöner gemacht:
+ul a{
+display:block;
+text-decoration:none;
+color:white;
+}
+Bedeutung:
+	•	display:block → der Link nimmt die ganze Breite ein
+	•	text-decoration:none → entfernt die Unterstreichung
+	•	color → Farbe des Textes
+
+Quelle:
+https://developer.mozilla.org/de/docs/Web/CSS/display
+https://developer.mozilla.org/de/docs/Web/CSS/text-decoration
+
+Hover Effekt hinzufügen
+Wenn man mit der Maus über einen Link fährt, ändert sich die Farbe:
+Bedeutung:
+	•	:hover → Effekt wenn man mit der Maus über ein Element fährt
+	•	color → ändert die Textfarbe
+
+Ergebnis
+Durch diese Änderungen:
+	•	sieht die Website nicht mehr wie ein Word-Dokument aus
+	•	das Inhaltsverzeichnis ist übersichtlich
+	•	die Untergruppen funktionieren korrekt
+	•	die Navigation ist einfacher
+	•	das Design wirkt moderner
+
+Quelle:
+https://developer.mozilla.org/de/docs/Web/CSS/:hover
 
 
 
