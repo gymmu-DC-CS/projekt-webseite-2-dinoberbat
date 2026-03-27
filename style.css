@@ -188,3 +188,111 @@ table + img {
   border-radius: 10px;
   object-fit: contain;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hintergrund leicht grünlich */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding-left:260px; /* Platz für linke Leiste */
+  background:#f4f8f4;
+}
+
+/* linke lange Fläche */
+body::before{
+  content:"";
+  position:fixed;
+  left:0;
+  top:0;
+  width:220px;
+  height:100vh;
+  background:#1b5e20;
+}
+
+/* Haupttitel */
+h1{
+  margin-top:30px;
+  font-size:2.8em;
+  color:#1b5e20;
+}
+
+/* Inhaltsverzeichnis Titel */
+h2{
+  color:white;
+  position:absolute;
+  left:12px;
+  top:102px;
+  font-size:1.4em;
+}
+
+/* Inhaltsverzeichnis Liste */
+ul{
+  color:white;
+  position:absolute;
+  left:35px;
+  top:145px;
+  width:160px;
+  padding:0;
+}
+
+/* Links */
+ul a{
+  display:block;
+  color:white;
+  text-decoration:none;
+  margin:7px 0;
+  font-size:0.95em;
+}
+
+/* Hover Effekt */
+ul a:hover{
+  padding-left:2px;
+  color:#a5d6a7;
+}
+
+/* Kapitel Titel */
+h3{
+  margin-top:40px;
+  border-bottom:2px solid #c8e6c9;
+  padding-bottom:4px;
+  color:#1b5e20;
+}
+
+/* Text */
+p{
+  max-width:900px;
+  line-height:1.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
