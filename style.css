@@ -327,3 +327,31 @@ p{
   z-index: 1000;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+.aussterben-layout {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.aussterben-layout p {
+  width: 50%;
+  line-height: 1.6;
+}
+
+.aussterben-layout img {
+  width: 35%;
+  border-radius: 10px;
+}
