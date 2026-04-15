@@ -18,6 +18,13 @@ p {
   line-height: 1.6; 
 }
 
+h1{
+    
+  font-family: 'Russo One'; 
+  font-size: 1.2em;
+  margin-bottom: 2px;
+}
+
 h4{
     
   font-family: 'Fredoka One', cursive; 
@@ -82,18 +89,6 @@ h4{
 
 
 
-
-
-
-
-
-/* table {
-  display: inline-block;
-  width: 55%;
-  vertical-align: middle;
-} */
-
-
 table + img {
   display: inline-block;
   width: 40%;
@@ -102,13 +97,6 @@ table + img {
   margin-left: 20px;
   border-radius: 10px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -284,3 +272,22 @@ p{
   max-width:900px;
   line-height:1.6;
 }
+
+
+
+
+.zeit-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+
+}
+.zeit-content p {
+  flex: 1 1 55%;
+}
+.zeit-content img {
+  max-width: 40%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+

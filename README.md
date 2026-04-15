@@ -37,32 +37,59 @@ Zweck:
 	•	Schriftart der Untertitel individuell gestaltet.
 	•	Ich habe den Abstand zwischen Titel und Tabelle angepasst.
 
+IDs für Dinosaurier-Unterpunkte
+	•	Beispiel: <h4 id="tyrannosaurus">Tyrannosaurus Rex</h4>
+	•	Funktionsweise: Sprungziel für das Inhaltsverzeichnis <a href="#tyrannosaurus">Tyrannosaurus Rex</a>
+	•	Quelle: MDN id-Attribut￼
+
+Bilder für Steckbriefe
+	•	Beispiel:
+<img src="https://image.geo.de/35946962/t/gm/v4/w1440/r1.7778/-/trex-g-99311107.jpg" alt="Tyrannosaurus Rex">
+
 16.03.2026: 
-Heute habe ich am Abschnitt „Die Zeit der Dinosaurier“ weitergearbeitet.
-Videos zu den Erdzeitaltern
-Ich wollte zu den drei Zeitperioden Trias, Jura und Kreidezeit passende Videos hinzufügen.
-Dafür habe ich auf YouTube nach Videos gesucht, die diese Zeitperioden erklären.
-Es war teilweise schwierig, passende Videos zu finden, weil:
-	•	viele Videos zu lang waren
-	•	manche Videos nicht genau die Zeitperioden erklärt haben
+Weiterarbeit an der Zeit der Dinosaurier:
+Heute habe ich daran gearbeitet, zu den drei Erdzeitaltern Trias, Jura und Kreidezeit passende Videos auf der Website einzufügen.
 
-Videos in die Website einbauen
-Zuerst wollte ich die Videos direkt auf der Website einbetten. Das hat jedoch nicht funktioniert, weil einige Videos nicht eingebettet werden konnten.
-Deshalb habe ich stattdessen YouTube-Thumbnails verwendet, die auf das Video verlinken.
-Wenn man auf das Bild klickt, öffnet sich das Video auf YouTube.
+Schritt 1: Videos recherchieren
+	•	Ich habe auf YouTube nach Videos gesucht, die die Zeitperioden erklären.
+	•	Herausforderungen:
+	•	Viele Videos waren zu lang.
+	•	Manche erklärten die Perioden nicht genau.
+	•	Quellen / Links:
+	•	Trias: YouTube Video Trias￼
+	•	Jura: YouTube Video Jura￼
+	•	Kreidezeit: YouTube Video Kreidezeit￼
 
-Boxen mit CSS gestalten
-Danach habe ich mit CSS Boxen für die drei Zeitperioden erstellt.
-In jeder Box befinden sich:
-	•	der Name der Zeitperiode
-	•	der Zeitraum
-	•	ein Bild (Thumbnail), das auf das Video verlinkt
-Dabei hatte ich einige Schwierigkeiten mit dem Layout.
-Am Anfang:
-	•	waren die Bilder nicht in den Boxen
-	•	standen die Boxen nicht nebeneinander
-	•	waren die Abstände falsch
-Ich musste mehrere CSS-Eigenschaften ausprobieren, bis die Boxen nebeneinander stehen und die Bilder richtig in den Boxen angezeigt werden.
+Schritt 2: Videos auf der Website einbauen
+	•	Zuerst wollte ich die Videos direkt einbetten (<iframe>), aber einige Videos konnten nicht eingebettet werden.
+	•	Lösung: YouTube-Thumbnails verwenden, die auf das Video verlinken.
+	•	Beispiel:
+	<a href="https://www.youtube.com/watch?v=wJz2upbA3QA" target="_blank">
+  <img src="https://biermann-medizin.de/content/uploads/2025/03/newsimage404428-scaled.jpg" alt="Trias Video">
+</a>
+	•	Erklärung:
+	•	<a> → klickbarer Link
+	•	href → URL des Videos
+	•	target="_blank" → öffnet Link in neuem Tab
+	•	<img src> → Thumbnail-Bild, alt → Beschreibung
+
+Schritt 3: Boxen mit CSS gestalten
+	•	Ich habe Boxen für jede Zeitperiode erstellt (<div class="periode-box">) und mit CSS gestaltet.
+	•	CSS-Eigenschaften:
+	•	display: flex; → Boxen nebeneinander
+	•	margin / padding → Abstände innerhalb der Boxen
+	•	width / height → Größe der Boxen
+	•	Quellen / Referenzen:
+	•	MDN Flexbox￼
+	•	MDN Box Model￼
+
+Schritt 4: IDs für die Abschnitte
+	•	Jede Box hat eine eigene ID, um Sprungziele vom Inhaltsverzeichnis zu ermöglichen:
+	•	Trias: id="trias"
+	•	Jura: id="jura"
+	•	Kreidezeit: id="kreidezeit"
+	•	Funktionsweise: <a href="#jura">Jura</a> scrollt direkt zu diesem Abschnitt.
+
 
 26.03.2026:
 Heute habe ich für jeden Dinosaurier eine eigene <div class="dino-box"> angelegt. Innerhalb der Box habe ich den Inhalt in eine <div class="dino-content"> gepackt, damit die Tabelle mit den Informationen und das Bild nebeneinander stehen.
